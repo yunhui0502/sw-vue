@@ -1,0 +1,168 @@
+/* 中间背景 */
+.green {
+    /* width: 1903px; */
+    width: 100%;
+    height: 500px;
+    background: url('../images/green.png') no-repeat;
+}
+.green h1{
+    font-size:50px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    padding-left: 1022px;
+    padding-top: 200px;
+}
+.green p{
+    font-size:50px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    padding-left: 1022px;
+    /* padding-top: 250px; */
+}
+/* 主营业务 */
+.mainbn{
+    width: 1920px;
+    height: 842px;
+    /* background-color: pink; */
+}
+.bun{
+    width: 1200px;
+    height: 200px;
+    margin-left: 327px;
+
+    /* background-color: blue; */
+    text-align: center;
+}
+.bun h2{
+    font-size:44px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+    padding-top: 75px;
+}
+.bun p{
+    font-size:30px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    margin-top: 19px;
+}
+.lorem{
+    width: 1920px;
+    height: 500px;
+    /* background-color: skyblue; */
+}
+.lorem li{
+    float: left;
+    text-align: center;
+    width: 330px;
+    height: 300px;
+    margin-left: 246px;
+    /* background-color: rgb(204, 60, 60); */
+}
+.lorem li img{
+    width: 57px;
+    height: 54px;
+    margin-top: 121px;
+}
+.lorem li h2{
+    margin-top: 21px;
+    font-size:28px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+}
+.lorem li p{
+    
+    font-size:20px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    margin-top: 28px;
+    text-indent:2em
+}
+.lorem li:nth-child(2) img{
+    width: 42px;
+    height: 57px;
+}
+.lianxi{
+    text-align: center;
+    width: 1920px;
+    height: 50px;
+    /* background-color: #fff; */
+}
+.lianxi h2{
+    margin-top: 91px;
+    margin-left: 890px;
+    width:141px;
+    height:50px;
+    line-height: 50px;
+    border:1px solid rgba(55,151,162,1);
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(55,151,162,1);
+/* line-height:36px; */
+}
+/* 服务流程 */
+.about{
+    width: 1920px;
+    
+    height: 800px;
+    margin-top: 100px;
+    /* background-color: pink; */
+}
+.about img{
+    /* width: 1920px; */
+    width: 1912px;
+    height: 600px;
+    margin-top: 50px;
+}
+/* 案例展示 */
+.case{
+    width: 1920px;
+    height: 1500px;
+    margin-top: 100px;
+    /* background-color: rgb(83, 73, 73); */
+}
+.show{
+    width: 1920px;
+    height: 1400px;
+    margin-top: 34px;
+    /* flex-wrap: nowrap; */
+    /* background-color: rgb(57, 44, 116); */
+}
+.leftpic{
+    width: 960px;
+    font-size: 0;
+}
+.show .p1{
+    width: 960px;
+    height: 690px;
+}
+.show .p2{
+    width: 480px;
+    height: 345px;
+}
+.rightpic{
+    width: 960px;
+    font-size: 0;
+    margin-left: 960px;
+    margin-top: -1380px;
+}
+
+.more{
+    /* margin-top: 30px; */
+    margin-left: 903px;
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+}
+/* 轮播图 */
+.piro img{
+    width: 100%;
+
+}

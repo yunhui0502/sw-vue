@@ -1,0 +1,699 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+    @font-face {
+        font-family: 'iconfont';
+        src: url('../font/iconfont.eot');
+        src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+            url('../font/iconfont.woff2') format('woff2'),
+            url('../font/iconfont.woff') format('woff'),
+            url('../font/iconfont.ttf') format('truetype'),
+            url('../font/iconfont.svg#iconfont') format('svg');
+      }   
+    /*moon部分*/
+    .banner-one{
+        height: 1113px;
+    }
+    .fr .woman img{
+        /* float: right;  */
+        position: absolute;
+        width: 1070px;
+        height: 1845px;
+        margin-top: 300px;
+        margin-left: -210px;
+        
+    }
+    .fr{
+        float: right;
+        margin-top: 44px;
+        /* overflow: hidden; */
+    }
+    .fr img{
+        float: right;
+        width: 876px;
+        height: 1113px;
+    /*	left: 1044px;
+        top: 112px;*/
+        /*margin-left: 1044px;
+        */
+    }
+    .fl{
+        float: left;
+        /* text-align: center; */
+    }
+    .word{
+        width: 617px;
+        height: 726px;
+        /* border: 1px solid green; */
+        margin-left: 197px;
+        margin-top: 353px;
+        border-top: 1px solid red;
+    }
+    .line-two{
+        width: 106px;
+        border: 1px solid red;
+    }
+    .line-three{
+        width: 40px;
+        border: 1px solid red;
+    }
+    .think-bg{
+        position: relative;
+        width: 717px;
+        height: 127px;
+        margin-top: 30px;
+        background:rgba(255,0,0,1);
+        /*opacity透明度*/
+        opacity:0.8;
+        border-radius:4px;
+        box-shadow: 0 0 5px red;
+    }
+    .think{
+        position: absolute;
+        left: 16px;
+        bottom: 45px;
+        width:673px;
+        height:105px;
+        /*background-color: #fff;*/
+        font-size:130px;
+        font-weight:600;
+        color:rgba(255,255,255,1);
+        font-family:Source Han Sans CN;	
+    }
+    .creation{
+        width: 671px;
+        height: 105px;
+        /*background-color: pink;*/
+        margin-top: 55px;
+        margin-left: 4px;
+        font-size:130px;
+        font-family:Source Han Sans CN;
+        font-weight:800;
+        color:rgba(255,255,255);
+        /*-webkit-text-stroke:2px undefined;*/
+        /*text-stroke:2px #696C75;*/
+    }
+.bom img{
+    width: 44px;
+    height: 44px;
+    padding-top: 212px;
+}
+/* 白色部分 */
+ .white{
+    width: 1605px;
+    height: 1100px;
+    padding-top: 91px;
+    background-color: rgba(247, 247, 248, 1);
+}
+.white-all{
+    width: 1400px;
+    height: 1000px;
+    margin-left: 173px;
+    /* background-color: pink; */
+}
+.white-all .line1{
+    width: 296px;
+    border: 1px solid red;
+}
+.white-all .line2{
+    width: 40px;
+    border: 1px solid red;
+}
+.white-all .linian{
+    width: 600px;
+    height: 70px;
+    /* border: 1px solid red; */
+    /* padding-top: 10px; */
+}
+.linian h2{
+    font-size: 58px;
+    font-weight: 800;
+    /* width:448px; */
+    font-family:Source Han Sans CN;
+    color:rgba(7,21,64,1);
+}
+.tupian{
+    width: 950px;
+    height: 670px;
+    padding-top: 50px;
+    /* background-color: pink; */
+}
+.tupian .tone{
+    width: 950px;
+    /* height: 361px; */
+    padding-left: 30px;
+}
+.tupian img{
+    width: 280px;
+    height: 361px;
+    float: right;
+    padding-bottom: 70px;
+}
+.el-carousel__item--card {
+    width: 30%;
+}
+.el-carousel__container {
+    margin-left: 20px;
+}
+/* 轮播图按钮颜色 */
+.el-carousel__indicators--outside button{
+    background-color: #03274d;
+}
+.tone h2{
+    padding-left: 15px;
+    font-size:30px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(7,21,64,1);
+}
+.tone p{
+    padding-left: 15px;
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(7,21,64,1);
+}
+.banner{
+    width: 250px;
+    height: 40px;
+    position: relative;
+    /* background-color: #471d1d; */
+    float: right;
+    margin-right: 100px;
+    /* margin-bottom: 600px; */
+}
+.banner img{
+    width: 44px;
+    height: 44px;
+    padding-left: 230px;
+}
+.cilcle{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 15px;
+    /* background-color: rgb(207, 55, 55); */
+}
+.cilcle i{
+    /*转为行内块*/
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: rgba(7, 21, 64, 1);
+	/*变为圆形*/
+	border-radius: 50%;
+    border:1px solid #fff;
+    margin: 0 10px;
+}
+.cilcle i:hover{
+    background-color: #fff;
+}
+/* 三个图片部分 */
+.threepri{
+    width: 1600px;
+    height: 900px;
+    margin-top: -50px;
+    /* background-color: rgb(187, 136, 136); */
+}
+.threepri .pri-all{
+    width: 1270px;
+    height: 677px;
+    margin-left: 287px;
+    /* border: 1px solid #fff; */
+}
+.pri-one{
+    float: left;
+    margin-right: 25px;
+}
+.pri-one img{
+    width: 572px;
+    height: 677px;
+}
+.pri-two{
+    float: left;
+}
+.pri-two .pri-1{
+    width: 592px;
+    height: 372px;
+}
+.pri-two .pri-2{
+    margin-top: 26px;
+    width: 530px;
+    height: 279px;
+}
+.threepri .more{
+    width: 222px;
+    height: 68px;
+    line-height: 68px;
+    border: 1px solid #fff;
+    margin-top: 80px;
+    margin-left: 849px;
+    text-align: center;
+    /* padding-top: 25px; */
+    /* background-color: #fff; */
+}
+.more span{
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+
+
+/* 业务部分 */
+.yewu{
+    width: 1100px;
+    height: 650px;
+    margin-left: 419px;
+    margin-top: 50px;
+    /* background-color: pink; */
+}
+.yewu .yewu-y{
+    width: 470px;
+    height: 70px;
+    margin-left: 320px;
+}
+.yewu-y .line-o{
+    width: 291px;
+    border: 1px solid red;
+}
+.yewu-y .line-t{
+    width: 40px;
+    border: 1px solid red;
+}
+.yewu-y h2{
+    font-size:58px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    padding-top: 11px;
+}
+
+.kaifa{
+    width: 523px;
+    height: 156px;
+    background-color: rgba(12, 21, 36, 1);
+    margin-top: 78px;
+}
+.kaifa-l{
+    width: 523px;
+    height: 600px;
+    float: left;
+    /* border: 1px solid #fff; */
+}
+.wangzhan img{
+    width: 45px;
+    height: 39px;
+    float: left;
+    margin-left: 42px;
+    margin-top: 58px;
+}
+.kai-word{
+    float: left;
+    margin-top: 44px;
+    margin-left: 49px;
+}
+.kai-word h3{
+    font-size:26px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    /* line-height:50px; */
+}
+.kai-word p{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(81,122,144,1);
+    padding-top: 12px;
+    /* line-height:24px; */
+}
+.sheji{
+    width: 523px;
+    height: 156px;
+    background-color: rgba(12, 21, 36, 1);
+    margin-top: 36px;
+}
+.sheji-1 img{
+    width: 45px;
+    height: 39px;
+    float: left;
+    margin-left: 42px;
+    margin-top: 58px;
+}
+.she-word{
+    float: left;
+    margin-top: 44px;
+    margin-left: 49px;
+}
+.she-word h3{
+    font-size:26px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    /* line-height:50px; */
+}
+.she-word p{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(81,122,144,1);
+    padding-top: 12px;
+    /* line-height:24px; */
+}
+.kaifa-r{
+    width: 523px;
+    height: 600px;
+    float: left;
+    margin-left: 35px;
+    /* border: 1px solid #fff; */
+}
+.cehua{
+    width: 523px;
+    height: 156px;
+    background-color: rgba(12, 21, 36, 1);
+    margin-top: 78px;
+}
+.cehua-one img{
+    width: 42px;
+    height: 56px;
+    float: left;
+    margin-left: 36px;
+    margin-top: 51px;
+}
+.cehua-word{
+    float: left;
+    margin-top: 44px;
+    margin-left: 49px;
+}
+.cehua h3{
+    font-size:26px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    /* line-height:50px; */
+}
+.cehua p{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(81,122,144,1);
+    padding-top: 12px;
+    /* line-height:24px; */
+}
+.serve{
+    width: 523px;
+    height: 156px;
+    background-color: rgba(12, 21, 36, 1);
+    margin-top: 35px;
+    text-align: center;
+}
+.serve h2{
+    font-size:26px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    padding-top: 71px;
+}
+.serve h2 img{
+    width: 30px;
+    height: 30px;
+    /* color: #fff; */
+    vertical-align: bottom;
+    padding-left: 7px;  
+}
+/* 伙伴部分 */
+.huoban{
+    width: 1100px;
+    height:750px;
+    margin-left: 419px;
+    /* background-color: pink; */
+}
+.huoban .huo-y{
+    width: 470px;
+    height: 70px;
+    margin-left: 320px;
+}
+.huo-y .line-o{
+    width: 291px;
+    border: 1px solid red;
+}
+.huo-y .line-t{
+    width: 40px;
+    border: 1px solid red;
+}
+.huo-y h2{
+    font-size:58px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    padding-top: 11px;
+}
+.mess{
+    width: 1050px;
+    /* height: 400px; */
+    margin-top: 86px;
+    /* border: 1px solid #fff; */
+}
+.mess .mess-l{
+    width: 512px;
+    /* height: 400px; */
+    float: left;
+    /* border: 1px solid red; */
+}
+.mess-l h5{
+    float: left;
+    /* width: 200px; */
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-right: 100px;
+}
+.mess-l p{
+    float: right;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont_dl.eot');
+    src: url('../font/iconfont_dl.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont_dl.woff2') format('woff2'),
+        url('../font/iconfont_dl.woff') format('woff'),
+        url('../font/iconfont_dl.ttf') format('truetype'),
+        url('../font/iconfont_dl.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 36px;
+    font-style: normal;
+    color: #fff;
+    cursor: pointer;/* 悬停变小手 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.mess-l img{
+    width: 512px;
+    height: 563px;
+}
+.mess .mess-r{
+    width: 450px;
+    /* height: 600px; */
+    float: left;
+    margin-left: 77px;
+    /* border: 1px solid red; */
+}
+.mess-one{
+    width: 450px;
+    height: 102px;
+    /* background-color: #fff; */
+    margin-top: 60px;
+}
+.touxiang1{
+    float: left;
+}
+.touxiang1 img{
+    width: 102px;
+    height: 102px;
+}
+.tx-word{
+    width: 320px;
+    float: left;
+    margin-left: 14px;
+}
+.tx-word h4{
+    padding-top: 14px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+}
+.tx-word p{
+    padding-top: 10px;
+    font-size:12px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+}
+ .more1{
+    width: 222px;
+    height: 50px;
+    margin-left: 849px;
+    margin-top: 100px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 17px;
+}
+.more1 span{
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    
+}
+.more1 a{
+    color:rgba(255,255,255,1);
+}
+/* 合作伙伴 */
+.hezuo{
+    width: 1100px;
+    height:750px;
+    margin-left: 419px;
+    margin-top: 149px;
+    /* text-align: center; */
+    /* background-color: pink; */
+}
+.hezuo .more-o{
+    width: 222px;
+    height: 50px;
+    margin-left: 470px;
+    margin-top: 100px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 17px;
+}
+.more-o span{
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.hezuo .he-y{
+    width: 600px;
+    height: 70px;
+    margin-left: 320px;
+}
+.he-y .line-o{
+    width: 291px;
+    border: 1px solid red;
+}
+.he-y .line-t{
+    width: 40px;
+    border: 1px solid red;
+}
+.he-y h2{
+    font-size:58px;
+    font-family:Source Han Sans CN;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    padding-top: 11px;
+}
+.allpri{
+    width: 1200px;
+    height: 360px;
+    /* background-color: red; */
+    margin-top: 80px;
+}
+.allpri img{
+    width: 270px;
+    height: 177px;
+    padding-left: 14px;
+    padding-bottom: 25px;
+}
+.model{
+    width: 1062px;
+    height: 600px;
+    margin-top: 300px;
+    margin-left: 432px;
+    /* background-color: pink; */
+}
+.model .m28{
+
+    width: 125px;
+    height: 234px;
+    margin-left: 395px;
+    margin-top: -80px;
+    z-index: 999;
+}
+.model .m26{
+    float: left;
+    width: 421px;
+    height: 565px;
+    margin-left: 302px;
+    margin-top: -150px;
+    z-index: 0;
+}
+.model .blue{
+    width: 1062px;
+    height: 363px;
+    background:rgba(2,8,24,1);
+    border-radius:50%;
+    margin-top: 200px;
+}
+
+.footer{
+    width: 1574px;
+    height: 277px;
+    margin-top: 200px;
+    margin-left: 173px;
+    border-top: 1px solid rgba(184, 184, 184, 1);
+    /* background-color: pink; */
+}
+.help{
+    width: 1000px;
+    height: 200px;
+    margin-top: 73px;
+    margin-left: 90px;
+    float: left;
+    /* background-color: red; */
+}
+.help dl{
+    float:left;
+    width: 387px;
+    height: 150px;
+    padding-right: 50px;
+}
+.help dt{
+    font-size: 24px;
+    color:rgba(80,80,80,1);
+    line-height: 40px;
+}
+.help dd{   
+    font-size:20px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(184,184,184,1);
+    line-height:40px;
+}
+.help p{
+font-size:20px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(184,184,184,1);
+line-height:36px;
+}
+.sw img{
+    width: 338px;
+    height: 169px;
+    /* margin-left: 178px; */
+    margin-top: 72px;
+    float: left;
+}

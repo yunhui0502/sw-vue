@@ -1,0 +1,120 @@
+.green {
+    width: 1903px;
+    height: 500px;
+    background: url('../images/green.png') no-repeat;
+}
+
+.wrapper {
+    width: 100%;
+    height: 1900px;
+    background-color: rgba(246, 246, 246, 1);
+    padding-top: 56px;
+}
+
+.message {
+    width: 1200px;
+    height: 2106px;
+    background-color: #fff;
+    margin-left: 360px;
+}
+
+.hd {
+    width: 1200px;
+    height: 117px;
+    /* background-color: pink; */
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+
+.hd h2 {
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: rgba(44, 62, 92, 1);
+    padding-top: 34px;
+    padding-left: 27px;
+}
+
+.hd span {
+    color: rgba(104, 170, 255, 1);
+}
+
+.hd p {
+    float: left;
+    padding-left: 27px;
+    margin-top: 18px;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: rgba(176, 184, 195, 1);
+}
+
+.first {
+    width: 650px;
+    height: 360px;
+    /* background-color: pink; */
+    margin-top: 101px;
+    margin-left: 293px;
+}
+
+.first p {
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    line-height: 36px;
+}
+
+.first img {
+    width: 594px;
+    height: 272px;
+    padding-left: 10px;
+    padding-top: 29px;
+}
+
+.theard h3 {
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    line-height: 36px;
+    padding-left: 97px;
+    padding-top: 44px;
+}
+
+.theard img {
+    width: 717px;
+    height: 329px;
+    padding-top: 39px;
+    padding-left: 180px;
+}
+
+.theard h1 {
+    color: black;
+    padding-left: 96px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.foo {
+    margin-top: 150px;
+    width: 1200px;
+    height: 30px;
+}
+
+.foo h4 {
+    float: left;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    line-height: 36px;
+}
+
+.foo h5 {
+    float: right;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    line-height: 36px;
+}

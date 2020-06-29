@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "px2rem-loader": "^0.1.9"
+  }
+}
